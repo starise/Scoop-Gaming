@@ -16,4 +16,5 @@ scoop bucket add gaming https://github.com/starise/Scoop-Gaming
 |Name|Description|License|
 |----|-----------|-------|
 |[borderless-gaming](https://github.com/Codeusa/Borderless-Gaming)|Play your favorite games in a borderless window; no more time consuming alt-tabs|[GPL-2.0](https://spdx.org/licenses/GPL-2.0.html "https://spdx.org/licenses/GPL-2.0.html")|
+|[directx](https://www.microsoft.com/en-us/download/details.aspx?id=35)|DirectX Runtime. Collection of APIs for handling tasks related to multimedia|[Proprietary](https://en.m.wikipedia.org/wiki/Software_license#Proprietary_software_licenses "https://en.m.wikipedia.org/wiki/Software_license#Proprietary_software_licenses")|
 |[sam](https://github.com/gibbed/SteamAchievementManager)|Steam Achievement Manager for game achievements in Steam|[Zlib](https://spdx.org/licenses/Zlib.html "https://spdx.org/licenses/Zlib.html")|
