@@ -15,3 +15,4 @@ scoop bucket add gaming https://github.com/starise/Scoop-Gaming
 <!-- Your edits will be lost the next time makeindex.py is run -->
 |Name|Description|License|
 |----|-----------|-------|
+|[sam](https://github.com/gibbed/SteamAchievementManager)|Steam Achievement Manager for game achievements in Steam|[Zlib](https://spdx.org/licenses/Zlib.html "https://spdx.org/licenses/Zlib.html")|
