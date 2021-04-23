@@ -1,5 +1,7 @@
 # Scoop-Gaming
 
+[![Excavator](https://github.com/starise/Scoop-Gaming/actions/workflows/schedule.yml/badge.svg)](https://github.com/starise/Scoop-Gaming/actions/workflows/schedule.yml)
+
 Gaming Bucket 🕹️ for [Scoop](https://scoop.sh/) command-line installer for Windows.
 
 ## Installation
