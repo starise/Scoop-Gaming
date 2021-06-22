@@ -1,13 +1,13 @@
 {
-    "version": "3.22.0.32",
+    "version": "3.23.0.74",
     "description": "Capture and share videos, screenshots, and livestreams. Keep drivers up to date and optimize game settings",
     "homepage": "https://www.nvidia.com/en-us/geforce/geforce-experience",
     "license": {
         "identifier": "Proprietary",
         "url": "https://www.nvidia.com/en-us/about-nvidia/eula-agreement/"
     },
-    "url": "https://us.download.nvidia.com/GFE/GFEClient/3.22.0.32/GeForce_Experience_v3.22.0.32.exe#/dl.7z",
-    "hash": "2adce2709a4cab14ae7858439f59e3fe15f80fda21f0e2044bbe6bd991b48a72",
+    "url": "https://us.download.nvidia.com/GFE/GFEClient/3.23.0.74/GeForce_Experience_v3.23.0.74.exe#/dl.7z",
+    "hash": "97bb181cb7bcc7ae9ea91c898d20b60751551f259179af666bfe77f5e8738090",
     "installer": {
         "file": "setup.exe",
         "args": [
