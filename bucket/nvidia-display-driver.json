@@ -1,5 +1,5 @@
 {
-    "version": "527.37",
+    "version": "527.56",
     "description": "Display driver for Nvidia graphics cards",
     "homepage": "https://www.nvidia.com",
     "license": {
@@ -9,8 +9,8 @@
     "suggest": {
         "GeForce Experience": "gaming/nvidia-geforce-experience"
     },
-    "url": "https://us.download.nvidia.com/Windows/527.37/527.37-desktop-win10-win11-64bit-international-dch-whql.exe#/dl.7z",
-    "hash": "0d5aac2db83e9008b70d3ccb5d3d84fb5fe032aea4a1ae4ff8ea99a9212c1421",
+    "url": "https://us.download.nvidia.com/Windows/527.56/527.56-desktop-win10-win11-64bit-international-dch-whql.exe#/dl.7z",
+    "hash": "17f74d97a2037096fdd771c9d1c2d838878d6dcb6b394b67608cc5d6e8b9f520",
     "extract_to": "_FullPackage",
     "pre_install": [
         "$srcdir = \"$dir\\_FullPackage\"",
