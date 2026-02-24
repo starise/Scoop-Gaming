@@ -40,6 +40,11 @@
         "Plugins\\Client\\OverlayEditor.cfg",
         "Profiles"
     ],
+    "pre_uninstall": [
+        "# persist other configs",
+        "Get-ChildItem \"$dir\\Plugins\\Client\\*.cfg\" -Exclude @('HotkeyHandler.cfg','OverlayEditor.cfg') |",
+        "Copy-Item -Destination \"$persist_dir\\Plugins\\Client\" -Force -ErrorAction SilentlyContinue"
+    ],
     "checkver": {
         "url": "https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/",
         "script": [
