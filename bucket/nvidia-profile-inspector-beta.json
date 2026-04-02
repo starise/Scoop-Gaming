@@ -9,8 +9,8 @@
     "shortcuts": [["nvidiaProfileInspector.exe", "NVIDIA Profile Inspector"]],
     "checkver": {
         "url": "https://api.github.com/repos/Orbmu2k/nvidiaProfileInspector/releases",
-        "jsonpath": "$[?(@.prerelease==true)][0].tag_name",
-        "regex": "([\\w\\.\\-]+)"
+        "jsonpath": "$[0].tag_name",
+        "regex": "v(.*)"
     },
     "autoupdate": {
         "url": "https://github.com/Orbmu2k/nvidiaProfileInspector/releases/download/v$version/nvidiaProfileInspector.zip"
