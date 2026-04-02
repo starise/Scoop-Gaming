@@ -11,4 +11,5 @@ jobs:
       - name: Pull Request Validator
         uses: ScoopInstaller/GithubActions@main
         env:
+          USER_EMAIL: ${{ secrets.USER_EMAIL }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
