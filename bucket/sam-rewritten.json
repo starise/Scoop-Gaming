@@ -1,12 +1,17 @@
 {
-    "version": "1.2.2",
+    "version": "1.2.3",
     "description": "Modern Steam achievements manager for Windows and Linux.",
     "homepage": "https://github.com/PaulCombal/SamRewritten",
     "license": "GPL-3.0",
-    "url": "https://github.com/PaulCombal/SamRewritten/releases/download/v1.2.2/SamRewritten-installer.exe#/dl.7z",
-    "hash": "9c06eddb6c5e5579ca71362c9d764c9a24ce45a4901815254d80923fb4623b41",
-    "pre_install": ["Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\*.nsi\" -Force -Recurse"],
-    "shortcuts": [["samrewritten.exe", "SamRewritten"]],
+    "url": "https://github.com/PaulCombal/SamRewritten/releases/download/v1.2.3/SamRewritten-installer.exe#/dl.7z",
+    "hash": "f05af2f086c64a94c9a1d2267cb7fef9bace6a788260c8aff295a8db50d310cc",
+    "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\*.nsi\" -Force -Recurse",
+    "shortcuts": [
+        [
+            "samrewritten.exe",
+            "SamRewritten"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/PaulCombal/SamRewritten/releases/download/v$version/SamRewritten-installer.exe#/dl.7z"
